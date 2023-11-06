@@ -1,0 +1,21 @@
+
+body {
+    background-color: #003329;
+    margin: 0;
+    overflow-x: hidden;
+}
+main {
+    height: 300vh;
+    padding: 16px;
+    color: #dadada;
+}
+.container {
+    position: relative;
+    background: radial-gradient(ellipse at bottom, #f2b352 10%, #c4353d);
+    overflow: hidden;
+}
+.container > img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}

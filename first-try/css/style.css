@@ -4,6 +4,9 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+body::-webkit-scrollbar {
+     display: none; 
+  }
 main {
     height: 300vh;
     padding: 16px;
@@ -13,9 +16,46 @@ main {
     position: relative;
     background: radial-gradient(ellipse at bottom, #f2b352 10%, #c4353d);
     overflow: hidden;
+    width: 100%;
+    height: 100vh;
 }
-.container > img {
+.parallaxImg {
     position: absolute;
     width: 100%;
-    top: 0;
+    height: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;  
+}
+#hill1 {
+    background-image: url(../img/hill1.png);
+}
+#hill2 {
+    background-image: url(../img/hill2.png);
+
+
+}
+#hill3 {
+    background-image: url(../img/hill3.png);
+
+}
+#hill4 {
+    background-image: url(../img/hill4.png);
+
+}
+#hill5 {
+    background-image: url(../img/hill5.png);
+ 
+}
+#leaf {
+    background-image: url(../img/leaf.png);
+
+}
+#tree {
+    background-image: url(../img/tree.png);
+
+}
+#plant {
+    background-image: url(../img/plant.png);
+
 }

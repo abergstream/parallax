@@ -1,0 +1,154 @@
+:root {
+    --wallColor: #c4353d;
+    --holeColor: #98272d;
+    --shatterColor: var(--wallColor);
+    --mainBg: #333;
+    /* --shatterColor: blue; */
+}
+body {
+    min-height: 800vh;
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    display: none; 
+ }
+.flexBox {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
+aside {
+    width: 500px;
+    height: 100%;
+    background-color: var(--wallColor);
+}
+main {
+    width: calc(100% - 500px);
+    height: 100vh;
+    background-color: var(--mainBg);
+}
+.brokenWall {
+    background-color: var(--holeColor);
+    width: 148px;
+    height: 148px;
+    position: absolute;
+    left: 301px;
+    top: 701px;
+    transform: rotate(45deg);
+    box-shadow: inset 0px 0px 105px rgba(0,0,0,.4);
+}
+
+.shatter {
+    background-color: var(--shatterColor);
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    transform: rotate(45deg);
+    z-index: 999;
+    
+}
+#shatter1 {
+    left: 359px;
+    top: 675px;
+}
+#shatter2 {
+    left: 338px;
+    top: 696px;
+}
+#shatter3 {
+    left: 317px;
+    top: 717px;
+}
+
+#shatter4 {
+    left: 296px;
+    top: 738px;
+}
+#shatter5 {
+    left: 275px;
+    top: 759px;
+}
+
+#shatter6 {
+    left: 380px;
+    top: 696px;
+}
+#shatter7 {
+    left: 359px;
+    top: 717px;
+}
+#shatter8 {
+    left: 338px;
+    top: 738px;
+}
+#shatter9 {
+    left: 317px;
+    top: 759px;
+}
+#shatter10 {
+    left: 296px;
+    top: 780px;
+}
+#shatter11 {
+    left: 401px;
+    top: 717px;
+}
+#shatter12 {
+    left: 380px;
+    top: 738px;
+}
+#shatter13 {
+    left: 359px;
+    top: 759px;
+}
+#shatter14 {
+    left: 338px;
+    top: 780px;
+}
+#shatter15 {
+    left: 317px;
+    top: 801px;
+}
+
+#shatter16 {
+    left: 422px;
+    top: 738px;
+}
+#shatter17 {
+    left: 401px;
+    top: 759px;
+}
+#shatter18 {
+    left: 380px;
+    top: 780px;
+}
+#shatter19 {
+    left: 359px;
+    top: 801px;
+}
+#shatter20 {
+    left: 338px;
+    top: 822px;
+}
+
+#shatter21 {
+    left: 443px;
+    top: 759px;
+}
+#shatter22 {
+    left: 422px;
+    top: 780px;
+}
+#shatter23 {
+    left: 401px;
+    top: 801px;
+}
+#shatter24 {
+    left: 380px;
+    top: 822px;
+}
+#shatter25 {
+    left: 359px;
+    top: 843px;
+}
